@@ -113,3 +113,22 @@ th {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 426px) {
+  .card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+
+  }
+
+  body {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 85%;
+  }
+
+  img {
+    border-radius: 0px;
+  }
+
+}
